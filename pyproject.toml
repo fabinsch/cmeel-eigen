@@ -1,0 +1,17 @@
+[project]
+name = "cmeel-eigen"
+version = "3.4.0"
+description = "cmeel distribution for Eigen. Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms."
+readme = "eigen/README.md"
+requires-python = ">= 3.8"
+license = "Apache-2.0"
+
+[project.urls]
+homepage = "https://github.com/cmeel/cmeel-eigen"
+repository = "https://github.com/cmeel/cmeel-eigen.git"
+
+[build-system]
+requires = ["cmeel[build]>=0.6.2"]
+build-backend = "cmeel.build"
+source = "eigen"
+run_tests = false
