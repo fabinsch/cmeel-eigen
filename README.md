@@ -1,3 +1,3 @@
-# CMeel Eig
+# CMeel Eigen
 
-[Eigen](https://gitlab.com/libeigen/eigen.git) distribution for cmeel packages.
+[Eigen](https://gitlab.com/libeigen/eigen) distribution for cmeel packages.

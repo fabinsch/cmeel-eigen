@@ -11,7 +11,7 @@ homepage = "https://github.com/cmeel/cmeel-eigen"
 repository = "https://github.com/cmeel/cmeel-eigen.git"
 
 [build-system]
-requires = ["cmeel[build]>=0.6.2"]
+requires = ["cmeel[build]"]
 build-backend = "cmeel.build"
 source = "eigen"
 run_tests = false
