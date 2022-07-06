@@ -14,4 +14,4 @@ repository = "https://github.com/cmeel/cmeel-eigen.git"
 requires = ["cmeel[build]"]
 build-backend = "cmeel.build"
 source = "eigen"
-run_tests = false
+run-tests = false
