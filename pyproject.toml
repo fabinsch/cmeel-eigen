@@ -15,3 +15,4 @@ requires = ["cmeel[build]"]
 build-backend = "cmeel.build"
 source = "eigen"
 run-tests = false
+check-relocatable = false
