@@ -3,7 +3,7 @@ name = "cmeel-eigen"
 version = "3.4.0"
 description = "cmeel distribution for Eigen. Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms."
 readme = "eigen/README.md"
-requires-python = ">= 3.8"
+requires-python = ">= 3.7"
 license = "Apache-2.0"
 
 [project.urls]
