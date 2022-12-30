@@ -10,9 +10,11 @@ license = "Apache-2.0"
 homepage = "https://github.com/cmeel/cmeel-eigen"
 repository = "https://github.com/cmeel/cmeel-eigen.git"
 
-[build-system]
-requires = ["cmeel[build]"]
-build-backend = "cmeel.build"
+[tool.cmeel]
 source = "eigen"
 run-tests = false
 check-relocatable = false
+
+[build-system]
+requires = ["cmeel[build]"]
+build-backend = "cmeel.build"
