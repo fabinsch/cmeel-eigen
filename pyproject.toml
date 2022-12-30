@@ -14,6 +14,7 @@ repository = "https://github.com/cmeel/cmeel-eigen.git"
 source = "eigen"
 run-tests = false
 check-relocatable = false
+build-number = 1
 
 [build-system]
 requires = ["cmeel[build]"]
