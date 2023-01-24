@@ -11,6 +11,7 @@ homepage = "https://github.com/cmeel/cmeel-eigen"
 repository = "https://github.com/cmeel/cmeel-eigen.git"
 
 [tool.cmeel]
+build-number = 1
 source = "eigen"
 run-tests = false
 check-relocatable = false
