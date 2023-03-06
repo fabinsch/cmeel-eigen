@@ -2,8 +2,8 @@ name: Release on GitHub & PyPI
 
 on:
   push:
-    tags:
-      - "v*"
+    # tags:
+    #   - "v*"
 
 jobs:
   build_wheels:
@@ -11,7 +11,7 @@ jobs:
     runs-on: "${{ matrix.os }}-latest"
     strategy:
       matrix:
-        os: ["ubuntu", "macos"]
+        os: ["ubuntu", "macos", "windows"]
         build: ["cp37-*", "cp38-*", "cp39-*", "cp310-*", "cp311-*", "pp37-*", "pp38-*", "pp39-*"]
     steps:
       - uses: actions/checkout@v3
